@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thank you</title>
+    <style>
+        @keyframes tets {
+            to {
+                transform: rotate3d(1,0,0,360deg);
+            }
+        }
+
+        @keyframes color {
+            to {
+                color: #eee;
+            }
+        }
+
+        body {
+            background: #000;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        a {
+            color: transparent;
+            padding: 1em 1.5em;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        a:hover {
+            background-color: #555;
+        }
+
+        a:active {
+            background-color: black;
+        }
+
+        a:visited {
+            background-color: #ccc;
+        }
+
+        .wrapcirc {
+            margin: 0 auto;
+            height: 48px;
+            line-height: 48px;
+            width: 100%;
+            transform-style: preserve-3d;
+            position: relative;
+            animation: tets 43s steps(1500, end) forwards;
+            color: #fff;
+            font: 1.5em/2 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            text-rendering: optimizeSpeed;
+            text-transform: uppercase;
+            backface-visibility: hidden;
+            height: 100vh;
+        }
+
+        .wrapcirc div:nth-child(24)::after {
+            background: transparent;
+            width: 200px;
+            display: block;
+            color: transparent;
+            content: "THANK YOU";
+            padding: 4px;
+            font-size: 10px;
+            margin: 0 auto;
+            animation: color 7s steps(1, end) forwards;
+        }
+
+        .wrapcirc div:nth-child(1) {
+            width: 100px;
+            height: 100px;
+            left: 50%;
+            margin-left: -50px;
+        }
+
+        .wrapcirc div:nth-child(12) {
+            width: 100px;
+            height: 100px;
+            left: 50%;
+            margin-left: -50px;
+        }
+
+
+
+        a,
+        .wrapcirc div:nth-child(21),
+        .wrapcirc div:nth-child(22),
+        div:nth-child(20),
+        div:nth-child(19),
+        div:nth-child(18) {
+            color: transparent;
+            font-size: 12px;
+            line-height: 48px;
+            animation: color 7s steps(1, end) forwards;
+        }
+
+
+
+        .circ1,
+        .circ2,
+        .circ3,
+        .circ4,
+        .circ5,
+        .circ6,
+        .circ7,
+        .circ8,
+        .circ9,
+        .circ10,
+        .circ11,
+        .circ12,
+        .circ13,
+        .circ14,
+        .circ15,
+        .circ16,
+        .circ17,
+        .circ18,
+        .circ19,
+        .circ20,
+        .circ21,
+        .circ22,
+        .circ23,
+        .circ24 {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            backface-visibility: hidden;
+        }
+
+        .circ1 {
+            transform: rotateX(0deg) translateZ(500px);
+
+        }
+
+        .circ2 {
+            transform: rotateX(-15deg) translateZ(500px);
+
+        }
+
+        .circ3 {
+            transform: rotateX(-30deg) translateZ(500px);
+
+        }
+
+        .circ4 {
+            transform: rotateX(-45deg) translateZ(500px);
+
+        }
+
+        .circ5 {
+            transform: rotateX(-60deg) translateZ(500px);
+
+        }
+
+        .circ6 {
+            transform: rotateX(-75deg) translateZ(500px);
+
+        }
+
+        .circ7 {
+            transform: rotateX(-90deg) translateZ(500px);
+
+        }
+
+        .circ8 {
+            transform: rotateX(-105deg) translateZ(500px);
+            animation: color 2s 10s steps(3, end) forwards;
+            width: 200px;
+            margin-left: -100px;
+            left: 50%;
+            color: transparent;
+        }
+
+        .circ9 {
+            transform: rotateX(-120deg) translateZ(500px);
+
+        }
+
+        .circ10 {
+            transform: rotateX(-135deg) translateZ(500px);
+
+        }
+
+        .circ11 {
+            transform: rotateX(-150deg) translateZ(500px);
+
+        }
+
+        .circ12 {
+            transform: rotateX(-165deg) translateZ(500px);
+
+        }
+
+        .circ13 {
+            transform: rotateX(-180deg) translateZ(500px);
+
+        }
+
+        .circ14 {
+            transform: rotateX(165deg) translateZ(500px);
+
+        }
+
+        .circ15 {
+            transform: rotateX(150deg) translateZ(500px);
+
+        }
+
+        .circ16 {
+            transform: rotateX(135deg) translateZ(500px);
+
+        }
+
+        .circ17 {
+            transform: rotateX(120deg) translateZ(500px);
+
+        }
+
+        .circ18 {
+            transform: rotateX(105deg) translateZ(500px);
+
+        }
+
+        .circ19 {
+            transform: rotateX(90deg) translateZ(500px);
+
+        }
+
+        .circ20 {
+            transform: rotateX(75deg) translateZ(500px);
+
+        }
+
+        .circ21 {
+            transform: rotateX(60deg) translateZ(500px);
+
+        }
+
+        .circ22 {
+            transform: rotateX(45deg) translateZ(500px);
+
+        }
+
+        .circ23 {
+            transform: rotateX(30deg) translateZ(500px);
+
+        }
+
+        .circ24 {
+            transform: rotateX(15deg) translateZ(500px);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapcirc">
+        <div class="circ1">THANK YOU</div>
+        <div class="circ2">THANK YOU</div>
+        <div class="circ3">THANK YOU</div>
+        <div class="circ4">THANK YOU</div>
+        <div class="circ5">THANK YOU</div>
+        <div class="circ6">THANK YOU</div>
+        <div class="circ7">THANK YOU</div>
+        <div class="circ8">THANK YOU</div>
+        <div class="circ9">THANK YOU</div>
+        <div class="circ10">THANK YOU</div>
+        <div class="circ11">THANK YOU</div>
+        <div class="circ12">THANK YOU</div>
+        <div class="circ13">THANK YOU</div>
+        <div class="circ14">THANK YOU</div>
+        <div class="circ15">THANK YOU</div>
+        <div class="circ16">THANK YOU</div>
+        <div class="circ17">THANK YOU</div>
+        <div class="circ18">“IF PEOPLE ARE NOT LAUGHING AT YOUR GOALS, YOUR GOALS ARE TOO SMALL” ― Alex Haditaghi</div>
+        <div class="circ19">“You have enough to create what you want.” ― Lailah Gifty Akita, Think Great: Be Great!</div>
+        <div class="circ20">“Stay committed to your visions and dreams.” ― Lailah GiftyAkita</div>
+        <div class="circ21">“You are worthy of your wildest dreams.” ― Nicole Guillaume</div>
+        <div class="circ22">“Never allow reality to get in the way of your dreams.” ― Mark W. Boyer</div>
+        <div class="circ23">THANK YOU</div>
+        <div class="circ24">THANK YOU FOR NOTHING</div>
+    </div>
+</body>
+
+</html>
